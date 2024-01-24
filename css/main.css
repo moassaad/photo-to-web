@@ -1,0 +1,257 @@
+/* Raleway Regular */
+@font-face {
+    font-family: "Raleway";
+    src: url('fonts/Raleway/Raleway-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Raleway";
+    src: url('fonts/Raleway/Raleway-LightItalic.ttf') format('truetype');
+    font-weight: normal;
+    font-style: italic;
+}
+
+/* Raleway Bold */
+@font-face {
+    font-family: "Raleway";
+    src: url('fonts/Raleway/Raleway-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Raleway";
+    src: url('fonts/Raleway/Raleway-BoldItalic.ttf') format('truetype');
+    font-weight: 700;
+    font-style: italic;
+}
+
+* {
+    padding: 0px;
+    margin: 0px;
+    font-family: "Raleway";
+}
+
+body {
+    background-color: #e7e7e7;
+}
+
+.article {
+    background-color: white;
+    width:85%;
+    margin-left: 4%;
+    margin-top: 2%;
+    padding: 3%;
+    border-radius: 15px;
+}
+
+.article-header {
+    border-bottom: 1px solid #dfdede;
+    padding-bottom: 5px;
+    margin-bottom: 30px;
+}
+
+.article-title {
+    font-size: 35px;
+    width: 70%;
+    margin-bottom: 1%;
+}
+
+.article-title-data {
+    color: #a1a1a1;
+    margin-right: 20px;
+    font-size: 16px;
+}
+
+.article-img-1 {
+    float: right;
+    margin: 0px 0px 10px 35px;
+    border-radius: 10px;
+    width: 50%;
+}
+
+.article-content {
+    margin-bottom: 5%;
+}
+
+.article-content-text {
+    font-size: 16px;
+    line-height: 1.4;
+    width: 95%;
+    color: #505050;
+}
+
+.article-footer-share {
+    width: 250px;
+    border: 1px solid #505050;
+    padding: 15px;
+    border-radius:25px;
+}
+
+.article-footer-share label{
+    padding: 15px;
+    border-radius:23px;
+    font-size: 20px;
+}
+
+.share-list {
+    display: inline;
+    float: right;
+    width: 50%;
+}
+
+.share-list li {
+    display: inline;
+    margin-right: 5%;
+}
+
+.round {
+    background-color: black;
+    color: white;
+    width: 30px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 50%;
+    text-align: center;
+}
+
+.round:hover {
+    background-color: #0395f7;
+    color: white;
+}
+
+.cycle-lergal {
+    background-color: #0395f7;
+    color: white;
+    margin-top: 8%;
+    margin-bottom: 2%;
+    margin-left: 8%;
+    margin-right: 8%;
+    padding: 30px;
+    border-radius: 15px;
+    height: 120px;
+}
+
+.cycle-lergal-content {
+    display: flex;
+    align-items: center;
+  }
+
+.cycle-lergal-title {
+    margin-bottom: 10px;
+    font-size: 25px;
+}
+
+.cycle-lergal-address {
+    width: 30%;
+}
+
+.cycle-lergal-contact {
+    display: inline-block;
+    width: 40%;
+    border-bottom: 1px solid white;
+    margin-left: 3%;
+    margin-right: 3%;
+    padding-bottom: 10px;
+}
+
+.cycle-lergal-contact .email{
+    float: right;
+}
+
+.cycle-lergal-email-us {
+    border: 1px solid white;
+    width: 20%;
+    padding: 8px;
+    border-radius: 18px;
+}
+
+.cycle-lergal-email-us a {
+    color: white;
+    text-decoration: none;
+    margin-left: 7px;
+}
+
+.round-white-blue {
+    background-color: white;
+    color: #0395f7;
+    width: 25px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    border-radius: 50%;
+    text-align: center;
+    margin-right: 5px;
+}
+
+.cycle-lergal-email-us i {
+    text-align: left;
+    float: right;
+}
+
+.cycle-lergal-contact .phone,
+.cycle-lergal-contact .email {
+    display: inline-block;
+}
+
+.cycle-lergal-address,
+.cycle-lergal-contact {
+    font-size: 16px;
+}
+
+.cycle-lergal-address,
+.cycle-lergal-contact,
+.cycle-lergal-email-us {
+    display: inline-block;
+}
+
+.footer {
+    margin-left: 10%;
+    margin-right: 10%;
+    padding-top: 10px;
+    border-top: 1px solid #a1a1a1;
+    display: flex;
+    align-items: start;
+}
+
+.footer header {
+    margin-bottom: 15px;
+    color: #505050;
+}
+
+.footer a {
+    text-decoration: none;
+    color: #505050;
+}
+
+.footer a:hover {
+    color: #0395f7;
+}
+
+.footer-menu {
+    width: 15%;
+}
+
+.footer-case-studies {
+    width: 37%;
+}
+
+.footer-campaigns {
+    width: 37%;
+}
+
+.footer-menu,
+.footer-case-studies,
+.footer-campaigns {
+    display: inline-block;
+    margin-right: 4%;
+    font-size: 14px;
+}
+
+.footer-menu li,
+.footer-case-studies li,
+.footer-campaigns li {
+    list-style-type: none;
+    margin-bottom: 10px;
+}
